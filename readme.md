@@ -37,3 +37,19 @@ Defines characters to split in prioritized order. Defaults to sentences (periods
 ### `truncationChar` {String} (Default: `'…'`)
 
 Character to append to truncated string. Defaults to a simple ellipsis.
+
+
+
+## Contact, attribution & contribution
+
+All code here is either created by me or shamelessly stolen from other great libraries. I've tried to attribute authors whenever relevant. Contribute by simply forking your own repository and commit away. 
+
+I will review pull requests as quickly as I can.
+
+If anything leaves a bad taste in your mouth, contact info can be found at [ljd.dk](http://ljd.dk).
+
+
+
+## License
+
+_Clamp_ is licensed under [WTFPL](http://www.wtfpl.net/).
