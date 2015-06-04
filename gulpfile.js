@@ -54,17 +54,17 @@ gulp.task('bump', function() {
 		.pipe(bump({
 			type: gutil.env.bump ? gutil.env.bump : 'patch'
 		}))
-		.pipe(gulp.dest('./'));
+		.pipe(gulp.dest('./dist'));
 });
 
 // Watch for file changes and build accordingly.
 gulp.task('watch', function() {
-	gulp.watch(jsFile, ['lint-js', 'js']);
+	gulp.watch(jsFile, ['build']);
 });
 
 // Default tasks.
 // In NPM it is setup with: gulp clean && gulp build --production
-gulp.task('build', ['js']);
+gulp.task('build', ['lint-js', 'js']);
 
 // When developing you can continuously build files using just: gulp
 gulp.task('default', ['build', 'watch']);
