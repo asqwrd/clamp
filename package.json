@@ -1,0 +1,37 @@
+{
+  "name": "ljd-clamp",
+  "version": "0.1.0",
+  "description": "Simple text clamping",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/laustdeleuran/clamp.git"
+  },
+  "keywords": [
+    "text",
+    "clamp",
+    "js"
+  ],
+  "author": "Laust Deleuran <ljd@ljd.dk> (http://ljd.dk)",
+  "license": "WTFPL - http://www.wtfpl.net/",
+  "bugs": {
+    "url": "https://github.com/laustdeleuran/clamp/issues"
+  },
+  "homepage": "https://github.com/laustdeleuran/clamp#readme",
+  "dependencies": {
+    "computed-style": "^0.3.0",
+    "extend": "^2.0.1"
+  },
+  "devDependencies": {
+    "del": "^1.2.0",
+    "gulp": "^3.9.0",
+    "gulp-bump": "^0.3.1",
+    "gulp-jshint": "^1.11.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.2.0",
+    "gulp-util": "^3.0.5"
+  }
+}
