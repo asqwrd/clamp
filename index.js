@@ -85,7 +85,9 @@ function Clamp(element, options) {
  * @returns {Object} Current instance of Clamp
  */
 Clamp.prototype.reset = function() {
-	this.element.childNodes[0].nodeValue = this.text;
+	if (this.element.childNodes[0]) {
+		this.element.childNodes[0].nodeValue = this.text;
+	}
 
 	return this;
 };
