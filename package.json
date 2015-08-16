@@ -1,6 +1,6 @@
 {
   "name": "ljd-clamp",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "Title": "Clamp",
   "description": "Simple text clamping",
   "main": "index.js",
