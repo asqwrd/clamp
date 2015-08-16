@@ -54,7 +54,7 @@ gulp.task('bump', function() {
 		.pipe(bump({
 			type: gutil.env.bump ? gutil.env.bump : 'patch'
 		}))
-		.pipe(gulp.dest('./dist'));
+		.pipe(gulp.dest('./'));
 });
 
 // Watch for file changes and build accordingly.
