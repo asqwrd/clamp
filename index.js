@@ -66,10 +66,10 @@ function Clamp(element, options) {
 	}
 
 	if (element.childNodes.length > 1) {
-		throw "Clamp.js: Elements with multiple text nodes.";
+		throw "Clamp.js: Elements with multiple text nodes not supported.";
 	}
 
-	this.text = element.childNodes[0].nodeValue;
+	this.text = element.childNodes[0] && element.childNodes[0].nodeValue;
 
 	this.render();
 
